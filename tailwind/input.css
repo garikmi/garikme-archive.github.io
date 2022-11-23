@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .search-item {
-  @apply cursor-pointer hover:underline;
+  @apply cursor-pointer hover:before:content-['['] hover:after:content-[']'];
 }
 
 .search-item-body {

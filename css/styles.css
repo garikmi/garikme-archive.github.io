@@ -662,8 +662,14 @@ video {
   cursor: pointer;
 }
 
-.search-item:hover {
-  text-decoration-line: underline;
+.search-item:hover::before {
+  --tw-content: '[';
+  content: var(--tw-content);
+}
+
+.search-item:hover::after {
+  --tw-content: ']';
+  content: var(--tw-content);
 }
 
 .search-item-body {
@@ -784,4 +790,14 @@ article blockquote {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+.hover\:before\:content-\[\'\[\'\]:hover::before {
+  --tw-content: '[';
+  content: var(--tw-content);
+}
+
+.hover\:after\:content-\[\'\]\'\]:hover::after {
+  --tw-content: ']';
+  content: var(--tw-content);
 }
