@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.search-item {
+  @apply cursor-pointer hover:underline;
+}
+
+.search-item-body {
+  @apply text-subtle;
+}
+
+article h1 {
+  @apply text-2xl text-iris font-bold mt-9;
+}
+
+article h2 {
+  @apply text-xl text-iris font-bold mt-9;
+}
+
+article h3 {
+  @apply text-lg font-bold mt-4;
+}
+
+article h4 {
+  @apply text-base text-text font-bold mt-4;
+}
+
+article h5 {
+  @apply text-sm text-text font-bold mt-4;
+}
+
+article h6 {
+  @apply text-xs text-text font-bold mt-4;
+}
+
+article p {
+  @apply mt-4;
+}
+
+article img {
+  @apply mt-4 rounded mx-auto;
+}
+
+article pre {
+  @apply bg-overlay rounded mt-8 overflow-x-auto; 
+}
+
+article p code {
+  @apply bg-overlay rounded mt-8; 
+}
+
+article ol {
+  @apply list-decimal list-inside;
+}
+
+article ul {
+  @apply list-disc list-inside;
+}
+
+article ul > li {
+  @apply ml-4;
+}
+
+article blockquote {
+  @apply mx-10;
+}
+
+.highlight {
+  @apply mt-8 overflow-x-auto;
+}
+
+.gist {
+  @apply mt-8;
+}
+
+.footnotes {
+  @apply mt-9;
+}
