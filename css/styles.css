@@ -658,6 +658,11 @@ video {
   color: rgb(196 167 231 / var(--tw-text-opacity));
 }
 
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 .search-item {
   cursor: pointer;
 }
