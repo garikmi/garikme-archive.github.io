@@ -606,9 +606,14 @@ video {
   border-width: 1px;
 }
 
-.bg-base {
+.border-ghost {
+  --tw-border-opacity: 1;
+  border-color: rgb(198 204 215 / var(--tw-border-opacity));
+}
+
+.bg-woodsmoke {
   --tw-bg-opacity: 1;
-  background-color: rgb(25 23 36 / var(--tw-bg-opacity));
+  background-color: rgb(24 26 31 / var(--tw-bg-opacity));
 }
 
 .p-6 {
@@ -656,19 +661,19 @@ video {
   font-weight: 700;
 }
 
-.text-text {
+.text-cadet_blue {
   --tw-text-opacity: 1;
-  color: rgb(224 222 244 / var(--tw-text-opacity));
+  color: rgb(169 178 195 / var(--tw-text-opacity));
 }
 
-.text-iris {
+.text-olivine {
   --tw-text-opacity: 1;
-  color: rgb(196 167 231 / var(--tw-text-opacity));
+  color: rgb(152 195 121 / var(--tw-text-opacity));
 }
 
-.text-subtle {
+.text-shuttle_gray {
   --tw-text-opacity: 1;
-  color: rgb(144 140 170 / var(--tw-text-opacity));
+  color: rgb(95 102 114 / var(--tw-text-opacity));
 }
 
 .outline-none {
@@ -692,7 +697,7 @@ video {
 
 .search-item-body {
   --tw-text-opacity: 1;
-  color: rgb(144 140 170 / var(--tw-text-opacity));
+  color: rgb(95 102 114 / var(--tw-text-opacity));
 }
 
 article h1 {
@@ -701,7 +706,7 @@ article h1 {
   line-height: 2rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(196 167 231 / var(--tw-text-opacity));
+  color: rgb(152 195 121 / var(--tw-text-opacity));
 }
 
 article h2 {
@@ -710,7 +715,7 @@ article h2 {
   line-height: 1.75rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(196 167 231 / var(--tw-text-opacity));
+  color: rgb(152 195 121 / var(--tw-text-opacity));
 }
 
 article h3 {
@@ -725,9 +730,8 @@ article h4 {
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 700;
-  color: rgb(25 23 36 / var(--tw-text-opacity));
   --tw-text-opacity: 1;
-  color: rgb(224 222 244 / var(--tw-text-opacity));
+  color: rgb(169 178 195 / var(--tw-text-opacity));
 }
 
 article h5 {
@@ -736,7 +740,7 @@ article h5 {
   line-height: 1.25rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(224 222 244 / var(--tw-text-opacity));
+  color: rgb(169 178 195 / var(--tw-text-opacity));
 }
 
 article h6 {
@@ -745,7 +749,7 @@ article h6 {
   line-height: 1rem;
   font-weight: 700;
   --tw-text-opacity: 1;
-  color: rgb(224 222 244 / var(--tw-text-opacity));
+  color: rgb(169 178 195 / var(--tw-text-opacity));
 }
 
 article p {
@@ -764,14 +768,14 @@ article pre {
   overflow-x: auto;
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(38 35 58 / var(--tw-bg-opacity));
+  background-color: rgb(33 37 43 / var(--tw-bg-opacity));
 }
 
 article p code {
   margin-top: 2rem;
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(38 35 58 / var(--tw-bg-opacity));
+  background-color: rgb(33 37 43 / var(--tw-bg-opacity));
 }
 
 article ol {

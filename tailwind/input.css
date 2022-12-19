@@ -7,15 +7,15 @@
 }
 
 .search-item-body {
-  @apply text-subtle;
+  @apply text-shuttle_gray;
 }
 
 article h1 {
-  @apply text-2xl text-iris font-bold mt-9;
+  @apply text-2xl text-olivine font-bold mt-9;
 }
 
 article h2 {
-  @apply text-xl text-iris font-bold mt-9;
+  @apply text-xl text-olivine font-bold mt-9;
 }
 
 article h3 {
@@ -23,15 +23,15 @@ article h3 {
 }
 
 article h4 {
-  @apply text-base text-text font-bold mt-4;
+  @apply text-base text-cadet_blue font-bold mt-4;
 }
 
 article h5 {
-  @apply text-sm text-text font-bold mt-4;
+  @apply text-sm text-cadet_blue font-bold mt-4;
 }
 
 article h6 {
-  @apply text-xs text-text font-bold mt-4;
+  @apply text-xs text-cadet_blue font-bold mt-4;
 }
 
 article p {
@@ -43,11 +43,11 @@ article img {
 }
 
 article pre {
-  @apply bg-overlay rounded mt-8 overflow-x-auto; 
+  @apply bg-shark rounded mt-8 overflow-x-auto;
 }
 
 article p code {
-  @apply bg-overlay rounded mt-8; 
+  @apply bg-shark rounded mt-8; 
 }
 
 article ol {
