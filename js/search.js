@@ -129,9 +129,8 @@ function formatSearchResultItem(item, terms) {
 }
 
 function initSearch() {
-  var $searchInput = document.getElementById("search");
-  var $searchResults = document.querySelector(".search-results");
-  var $searchResultsItems = document.querySelector(".search-results__items");
+  var $searchInput = document.getElementById("search_input");
+  var $searchResultsItems = document.getElementById("posts"); // querySelector(".search-results__items")
   var MAX_ITEMS = 10;
 
   var options = {
@@ -167,7 +166,6 @@ function initSearch() {
     if (term === currentTerm || !index) {
       return;
     }
-    // $searchResults.style.display = term === "" ? "none" : "block";
     $searchResultsItems.innerHTML = "";
     currentTerm = term;
     if (term === "") {
@@ -178,7 +176,6 @@ function initSearch() {
     var results = index.search(term, options);
 
     if (results.length === 0) {
-      // $searchResults.style.display = "none";
       $searchResultsItems.innerHTML = preserved;
       return;
     }
@@ -191,12 +188,6 @@ function initSearch() {
       $searchResultsItems.appendChild(item);
     }
   }, 150));
-
-  // window.addEventListener('click', function(e) {
-  //   if ($searchResults.style.display == "block" && !$searchResults.contains(e.target)) {
-  //     $searchResults.style.display = "none";
-  //   }
-  // });
 }
 
 

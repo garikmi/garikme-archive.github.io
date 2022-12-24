@@ -2,16 +2,11 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.108.0">
+	<meta name="generator" content="Hugo 0.109.0">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>GarikMe</title>
   <link rel="stylesheet" href="/css/styles.css" type="text/css" media="all"/>
-
-  <link rel="icon" href="/img/favicon.svg">
-  <link rel=”mask-icon” href="/img/mask-icon.svg" color="#191724">
-  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
-
   <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
@@ -26,10 +21,8 @@
 </html>
 
 
-<body class="bg-woodsmoke max-w-2xl mx-auto text-cadet_blue font-mono p-6">
-
-  <div class="overflow-x-hidden">
-    <div class="whitespace-pre overflow-x-hidden font-bold flex justify-center mt-20">   ___                      _      _     
+<body>
+  <div id="logo">   ___                      _      _     
   / __|   __ _      _ _    (_)    | |__  
  | (_ |  / _` |    | &#39;_|   | |    | / /  
   \___|  \__,_|   _|_|_   _|_|_   |_\_\  
@@ -37,92 +30,60 @@ _|&#34;&#34;&#34;&#34;&#34;|_|&#34;&#34;&#34;&#34;&#34;|_|&#34;&#34;&#34;&#34;&#
 &#34;`-0-0-&#39;&#34;`-0-0-&#39;&#34;`-0-0-&#39;&#34;`-0-0-&#39;&#34;`-0-0-&#39; 
 </div>
 
-  </div>
 
-  <div class="max-w-2xl text-center mx-auto mt-12">
-    <p>“You just keep pushing. You just keep pushing. I made every mistake that could be made. But I just kept pushing.” - Rene Descartes</p>
-
-  </div>
+  <div id="content"><p>“You just keep pushing. You just keep pushing. I made every mistake that could be made. But I just kept pushing.” - Rene Descartes</p>
+</div>
   
   
 
-  <noscript>
-    <style type="text/css">.search { display: none; }</style>
-  </noscript>
+  <noscript><style type="text/css">.search { display: none; }</style></noscript>
 
   
-    <div class="search max-w-2xl mx-auto border border-ghost rounded mt-11">
-      <div class="text-center -m-3">
-        <h3 class="inline-block bg-woodsmoke px-4">Search</h3>
-      </div>
-      <div class="p-5">
-        <input class="w-full bg-woodsmoke text-cadet_blue outline-none" id="search" type="text" placeholder="search" name="name">
-      </div>
+    <h4 class="section_title"><span>Search</span></h4>
+    <div id="search">
+      <input id="search_input" type="text" placeholder="search" name="name">
     </div>
   
 
   
     
-    <div class="search-results max-w-2xl mx-auto border border-ghost rounded mt-11">
-      <div class="text-center mx-auto -m-3">
-        <h3 class="inline-block bg-woodsmoke px-4">Posts</h3>
-      </div>
-      <div class="search-results__items p-5">
-        
-          <div class="post-snippet">
-            <a class="block cursor-pointer " href="/was-it-worth-giving-up-on-god/">
-              <h3 class="inline-block hover:bg-cornflower_blue hover:text-woodsmoke">Was it Worth Giving Up on God?
-                •
-                <time datetime="2022-09-19T00:00:00Z">September 19, 2022</time>
-              </h3>
-            </a>
-          </div>
-        
-          <div class="post-snippet">
-            <a class="block cursor-pointer " href="/on_temptation_and_addiction/">
-              <h3 class="inline-block hover:bg-cornflower_blue hover:text-woodsmoke">On Addiction and Temptation
-                •
-                <time datetime="2022-08-29T00:00:00Z">August 29, 2022</time>
-              </h3>
-            </a>
-          </div>
-        
-      </div>
+    <h4 class="section_title"><span>Posts</span></h4>
+    <div id="posts">
+      
+        <a href="/was-it-worth-giving-up-on-god/">Was it Worth Giving Up on God? • <time datetime="2022-09-19T00:00:00Z">September 19, 2022</time></a>
+      
+        <a href="/on_temptation_and_addiction/">On Addiction and Temptation • <time datetime="2022-08-29T00:00:00Z">August 29, 2022</time></a>
+      
     </div>
     
   
 
   
-    <div class="max-w-2xl mx-auto border border-ghost rounded mt-11">
-      <div class="text-center mx-auto -m-3">
-        <h3 class="inline-block bg-woodsmoke px-4">Categories</h3>
-      </div>
-      <div class="grid grid-cols-3 p-5">
-        
-          <a class="text-center cursor-pointer" href="https://garik.me/categories/life/">
-            <h5 class="inline-block hover:bg-cornflower_blue hover:text-woodsmoke">life(1)</h5>
-          </a>
-          <a class="text-center cursor-pointer" href="https://garik.me/categories/personal/">
-            <h5 class="inline-block hover:bg-cornflower_blue hover:text-woodsmoke">personal(1)</h5>
-          </a>
-      </div>
+    <h4 class="section_title"><span>Categories</span></h4>
+    <div id="categories">
+      
+        <span><a href="/categories/life/">life(1)</a></span>
+      
+        <span><a href="/categories/personal/">personal(1)</a></span>
+      
     </div>
   
-
 </body>
 
 <script type="text/javascript" src="/js/elasticlunr.min.js"></script>
 <script type="text/javascript" src="/js/search.js"></script>
 
 <footer>
-
-  <div class="text-center text-sm mt-11">
-    <a class="hover:bg-cornflower_blue hover:text-woodsmoke" href="https://garik.me">GarikMe</a>
-    &copy; 2022
-        <a class="hover:bg-cornflower_blue hover:text-woodsmoke" href="https://github.com/garikmi" target="_blank">github</a>
-        <a class="hover:bg-cornflower_blue hover:text-woodsmoke" href="https://gohugo.io" target="_blank">hugo</a>
-        <a class="hover:bg-cornflower_blue hover:text-woodsmoke" href="https://plastictheme.com" target="_blank">theme</a>
-  </div>
-
+  <a href="https://garik.me">GarikMe</a>
+  &copy; 2022 
+  
+    
+      <a href="https://github.com/garikmi" target="_blank">github</a>
+    
+      <a href="https://gohugo.io" target="_blank">hugo</a>
+    
+      <a href="https://plastictheme.com" target="_blank">theme</a>
+    
+  
 </footer>
 
