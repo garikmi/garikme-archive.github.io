@@ -27,6 +27,10 @@ html {
   background-color: var(--woodsmoke);
 }
 
+::selection {
+  background: var(--cadet_blue);
+}
+
 body {
   margin: 0 auto 0 auto;
   max-width: 42rem;
