@@ -68,13 +68,17 @@ body a:hover {
   background-color: var(--cornflower_blue);
 }
 
+body a:hover b {
+  color: var(--woodsmoke);
+  background-color: var(--cornflower_blue);
+}
+
 body a:hover time {
   color: var(--woodsmoke);
   background-color: var(--cornflower_blue);
 }
 
 #logo {
-  text-align: center;
   margin-top: 5rem;
   white-space: pre;
   overflow: hidden;
@@ -155,3 +159,14 @@ article .tags {
   overflow: hidden;
   color: var(--shuttle_gray);
 }
+
+article p code {
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  background-color: var(--shark);
+}
+
+/*article code {*/
+/*  padding: 0.25rem;*/
+/*  background-color: #0D1117;*/
+/*}*/
