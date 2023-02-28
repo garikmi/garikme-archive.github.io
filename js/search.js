@@ -19,9 +19,9 @@ function makeTeaser(text, test) {
     let formatted = [];
     for (let i = 0; i < text.length; i++) {
         if (test.toLowerCase().includes(text[i].toLowerCase())) {
-            formatted.push("<b>");
+            formatted.push("<mark>");
             formatted.push(text[i]);
-            formatted.push("</b>");
+            formatted.push("</mark>");
         } else {
             formatted.push(text[i]);
         }

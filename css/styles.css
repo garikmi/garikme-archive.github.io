@@ -68,14 +68,19 @@ body a:hover {
   background-color: var(--cornflower_blue);
 }
 
-body a:hover b {
-  color: var(--woodsmoke);
+body a:hover mark {
+  color: var(--harvest_gold);
   background-color: var(--cornflower_blue);
 }
 
 body a:hover time {
   color: var(--woodsmoke);
   background-color: var(--cornflower_blue);
+}
+
+.search-item mark {
+  color: var(--harvest_gold);
+  /*color: var(--whiskey);*/
 }
 
 #logo {
