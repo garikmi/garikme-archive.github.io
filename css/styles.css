@@ -69,8 +69,9 @@ body a:hover {
 }
 
 body a:hover mark {
-  color: var(--harvest_gold);
+  color: var(--woodsmoke);
   background-color: var(--cornflower_blue);
+  font-weight: bold;
 }
 
 body a:hover time {
@@ -79,12 +80,12 @@ body a:hover time {
 }
 
 .search-item mark {
-  color: var(--harvest_gold);
-  /*color: var(--whiskey);*/
+  color: var(--cadet_blue);
+  font-weight: bold;
 }
 
 #logo {
-  margin-top: 5rem;
+  margin-top: 2.75rem;
   white-space: pre;
   overflow: hidden;
   font-weight: 700;
@@ -94,7 +95,7 @@ body a:hover time {
 
 #content {
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 2.75rem;
 }
 
 #search input {
